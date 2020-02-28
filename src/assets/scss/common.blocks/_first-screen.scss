@@ -1,0 +1,76 @@
+.first-screen_section {
+  padding-top: 40px;
+  margin-top: -1px;
+  background: #FB5C3E url("../img/chinese/background-first-slide-orange.svg") no-repeat bottom;
+  background-size: 1540px auto;
+  overflow: hidden;
+
+  & > .container {
+    position: relative;
+  }
+}
+
+.first-screen__list {
+  margin-bottom: 130px;
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 36px;
+}
+
+.first-screen__circle {
+  border-radius: 50%;
+  background: #ffffff;
+  width: 53px;
+  min-width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 27px;
+}
+
+.first-screen__icon {
+  display: block;
+}
+
+.first-screen__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 22px;
+  }
+}
+
+.first-screen__link {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+
+  &:hover {
+    color: #000000;
+  }
+}
+
+.first-screen__mountain-img {
+  background: url("../img/chinese/mountains-image.png") no-repeat right;
+  background-size: cover;
+  width: 1271px;
+  height: 591px;
+  display: block;
+  position: absolute;
+  left: -640px;
+  bottom: -15px;
+}
+
+.first-screen__big-car {
+  background: url("../img/common/big-car-img.png") no-repeat center;
+  background-size: 100% auto;
+  width: 723px;
+  height: 407px;
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}

@@ -1,0 +1,158 @@
+html, body {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.main-logo {
+  width: 234px;
+  height: 43px;
+  display: block;
+  margin-right: 42px;
+}
+
+.main-logo__black {
+  background: url("../img/chinese/main-logo__black.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.icon-trolley-ch {
+  background: url("../img/chinese/icon-trolley.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 31px;
+  height: 29px;
+}
+
+.icon-diagram-ch {
+  background: url("../img/chinese/icon-diagram.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+}
+
+.icon-research-ch {
+  background: url("../img/chinese/icon-research.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+}
+
+.icon-coach-ch {
+  background: url("../img/chinese/icon-coach.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 29px;
+  height: 25px;
+}
+
+.icon-humans-ch {
+  background: url("../img/chinese/icon-humans.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 26px;
+}
+
+.orange-btn {
+  max-width: 236px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 0;
+
+  span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.conditions-icon {
+  background: url("../img/common/conditions-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 40px;
+  height: 42px;
+  display: block;
+}
+
+.coal-car-icon {
+  background: url("../img/common/coal-car-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 49px;
+  height: 49px;
+  display: block;
+}
+
+.icon-cellphone {
+  background: url("../img/common/icon-cellphone.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
+.icon-whatsapp {
+  background: url("../img/common/whatsapp-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.icon-wechat {
+  background: url("../img/common/wechat-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.icon-telegram {
+  background: url("../img/common/telegram-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.icon-placeholder {
+  background: url("../img/common/icon-placeholder.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.icon-email {
+  background: url("../img/common/icon-email.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+  display: block;
+}
+
+.form-icon-human {
+  background: #FFFFFF url("../img/common/form-human.svg") no-repeat;
+  background-position: 10px center;
+  background-size: 25px 26px;
+}
+
+.form-icon-email {
+  background: #ffffff url("../img/common/form-icon-email.svg") no-repeat;
+  background-position: 14px center;
+  background-size: 18px 18px;
+}
+
+.form-icon-comment {
+  background: #ffffff url("../img/common/form-icon-comment.svg") no-repeat;
+  background-position: 14px 20px;
+  background-size: 18px 17px;
+}
+
+.triangle-icon {
+  min-width: 12px;
+  width: 12px;
+  height: 14px;
+  display: block;
+  background: url("../img/common/triangle-icon-orange.svg") no-repeat center;
+  background-size: 100% auto;
+}

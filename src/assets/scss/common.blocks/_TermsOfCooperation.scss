@@ -1,0 +1,81 @@
+.TermsOfCooperation_section {
+  position: relative;
+  overflow: hidden;
+
+  & .container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.TermsOfCooperation__wrapper {
+  padding-top: 50px;
+  padding-bottom: 132px;
+  position: relative;
+  z-index: 1;
+}
+
+.TermsOfCooperation__wrapper-bg {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+  width: 200%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.TermsOfCooperation__title {
+  color: #CA2D10;
+  margin-bottom: 42px;
+}
+
+.TermsOfCooperation__text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #555555;
+  margin-bottom: 60px;
+}
+
+.TermsOfCooperation__list {
+  padding-left: 24px;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.TermsOfCooperation__item {
+  display: flex;
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.TermsOfCooperation__item-text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #555555;
+  margin-bottom: 0;
+}
+
+.TermsOfCooperation__item-icon {
+  margin-top: 8px;
+  margin-right: 25px;
+}
+
+.TermsOfCooperation-bg {
+  background: url("../img/common/handshake-humans.jpg") no-repeat center;
+  background-size: cover;
+  width: 1440px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,68 @@
+.whoAreWe_section {
+  padding-top: 63px;
+  padding-bottom: 107px;
+  background: #2E2E2E;
+  position: relative;
+  overflow: hidden;
+
+  & > .container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.whoAreWe__bg {
+  background: url("../img/chinese/background-train-map.png") no-repeat top;
+  background-size: 100% auto;
+  width: 1520px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.whoAreWe__title {
+  color: #F55537;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.whoAreWe__list {
+  padding-left: 26px;
+  margin-bottom: 62px;
+  list-style-type: none;
+}
+
+.whoAreWe__item {
+  display: flex;
+  align-items: flex-start;
+
+  &:not(:last-child) {
+    margin-bottom: 42px;
+  }
+}
+
+.whoAreWe__triangle {
+  margin-top: 8px;
+  margin-right: 28px;
+}
+
+.whoAreWe__text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.whoAreWe__btn {
+
+  span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+}

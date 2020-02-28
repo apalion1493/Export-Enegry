@@ -1,0 +1,25 @@
+.services-block {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.services-block__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #555555;
+  margin-bottom: 0;
+}
+
+.services-block_our-services {
+  width: 33%;
+}
+
+.services-block__img-container {
+  margin-bottom: 20px;
+
+  img {
+    width: 100%;
+  }
+}
