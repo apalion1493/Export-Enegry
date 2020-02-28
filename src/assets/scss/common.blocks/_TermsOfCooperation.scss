@@ -9,10 +9,13 @@
 }
 
 .TermsOfCooperation__wrapper {
+  margin-left: 10px;
   padding-top: 50px;
   padding-bottom: 132px;
+  padding-left: 15px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
+
 }
 
 .TermsOfCooperation__wrapper-bg {
@@ -24,6 +27,7 @@
   top: 0;
   left: 0;
   bottom: 0;
+  z-index: 1;
 }
 
 .TermsOfCooperation__title {
@@ -75,7 +79,7 @@
   display: block;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -200px;
   right: 0;
   bottom: 0;
 }

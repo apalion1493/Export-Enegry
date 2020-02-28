@@ -90,6 +90,14 @@ html, body {
   display: block;
 }
 
+.icon-cellphone-orange {
+  background: url("../img/common/icon-cellphone-orange.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
 .icon-whatsapp {
   background: url("../img/common/whatsapp-icon.svg") no-repeat center;
   background-size: 100% auto;
@@ -122,8 +130,24 @@ html, body {
   display: block;
 }
 
+.icon-placeholder-orange {
+  background: url("../img/common/icon-placeholder-orange.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
 .icon-email {
   background: url("../img/common/icon-email.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 27px;
+  height: 27px;
+  display: block;
+}
+
+.icon-email-orange {
+  background: url("../img/common/icon-email-orange.svg") no-repeat center;
   background-size: 100% auto;
   width: 27px;
   height: 27px;
@@ -155,4 +179,15 @@ html, body {
   display: block;
   background: url("../img/common/triangle-icon-orange.svg") no-repeat center;
   background-size: 100% auto;
+}
+
+.map-contact {
+  background: url("../img/common/map-image.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 510px;
+  max-width: 1600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

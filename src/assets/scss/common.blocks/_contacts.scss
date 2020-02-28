@@ -11,7 +11,7 @@
 
 .contacts__bg {
   background: url("../img/common/footer-background-image.jpg") no-repeat center;
-  background-size: 100% auto;
+  background-size: cover;
   width: 100%;
   height: auto;
   position: absolute;
@@ -127,4 +127,31 @@
 
 .contacts__form-textarea {
   padding-top: 17px;
+}
+
+.contacts_page {
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+  .contacts__item-linkPhone,
+  .contacts__item-title,
+  .contacts__item-link {
+    color: #555555;
+  }
+
+  .contacts__socialNetworks-icon {
+    background: #EEEEEE;
+  }
+
+  .contacts__form input, .contacts__form textarea {
+    border: 1px solid #CECECE;
+  }
+
+  .contacts__btn {
+    color: #555555;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
 }
