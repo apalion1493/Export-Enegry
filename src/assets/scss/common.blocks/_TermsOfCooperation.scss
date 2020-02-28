@@ -83,3 +83,21 @@
   right: 0;
   bottom: 0;
 }
+
+@media (max-width: 767.98px) {
+  .TermsOfCooperation__wrapper-bg {
+    width: 300%;
+    left: -100%;
+  }
+
+  .TermsOfCooperation-bg {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .TermsOfCooperation__wrapper {
+    padding-left: 0;
+  }
+}
+

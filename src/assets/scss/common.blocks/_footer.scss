@@ -43,3 +43,37 @@
 .footer-solo {
   background: #232222;
 }
+
+@media (max-width: 991.98px) {
+  .footer__logo-wrapper {
+    margin-top: 40px;
+  }
+
+  .footer__logo-link {
+    margin-left: 0;
+  }
+
+  .footer__list {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer_section {
+    padding-bottom: 110px;
+  }
+
+  .footer__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__item {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

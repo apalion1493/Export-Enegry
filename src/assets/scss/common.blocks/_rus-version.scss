@@ -1,0 +1,143 @@
+.rus-version {
+
+  .header__nav-link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    white-space: nowrap;
+  }
+
+  h2.h2 {
+    font-size: 45px;
+    line-height: normal;
+    letter-spacing: 0.6px;
+  }
+
+  .header__nav {
+    margin-left: auto;
+  }
+
+  .header__nav-link{
+    padding: 17px 15px;
+  }
+
+  .first-screen__link {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .first-screen__title {
+    color: #ffffff;
+  }
+
+  .services-block__title {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
+
+  .contacts__item-link {
+    font-size: 16px;
+  }
+
+  .our-services__production-title {
+    font-size: 20px;
+  }
+
+  .first-screen_section {
+    background: url(../img/rus/background-first-slide-grey.svg) bottom/1540px auto no-repeat #4E4E4E;
+  }
+
+  .first-screen__mountain-img {
+    background: url(../img/rus/mountains-image-grey.png) right/cover no-repeat;
+  }
+
+  .header {
+    background: #4E4E4E;
+  }
+
+  .header__language-link {
+    color: #ffffff;
+  }
+
+  .header__language-link.active:before, .header__language-link:hover:before {
+    background: #FB5C3E;
+  }
+
+  .navigation-block__link {
+    background: #C83939;
+
+    &:hover {
+      background: #FB5C3E;
+    }
+  }
+
+  .whoAreWe_section {
+    background: #1F1F1F;
+  }
+
+  .header__nav-li {
+    border-color: #ffffff;
+  }
+
+  h2.about-company__title {
+    font-size: 42px;
+  }
+
+  .about-company__container-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .about-company__container-title {
+    font-size: 28px;
+  }
+
+  .about-company__supply-text {
+    font-size: 16px;
+  }
+
+  .about-company__supply-year {
+    font-size: 28px;
+  }
+
+  .contacts_page-title,
+  .our-services-page__title {
+    color: #000000;
+    font-size: 42px;
+  }
+
+  .our-services-page__title {
+    margin-bottom: 46px;
+  }
+
+  .TermsOfCooperation__title {
+    font-size: 42px;
+    line-height: normal;
+    color: #000000;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border-color: #ffffff;
+  }
+
+  @media (max-width: 767.98px) {
+    .first-screen__link {
+      font-size: 18px;
+    }
+
+    .contacts__item-link {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .TermsOfCooperation__title {
+      font-size: 30px !important;
+    }
+  }
+}

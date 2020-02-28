@@ -10,6 +10,11 @@
   }
 }
 
+.first-screen__wrapper {
+  position: relative;
+  z-index: 10;
+}
+
 .first-screen__list {
   margin-bottom: 130px;
   padding-left: 0;
@@ -73,4 +78,33 @@
   position: absolute;
   bottom: -20px;
   left: -20px;
+}
+
+@media (max-width: 1199.98px) {
+  .first-screen__wrapper {
+    max-width: 450px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .first-screen__mountain-img,
+  .first-screen__big-car {
+    display: none;
+  }
+
+  .first-screen__wrapper {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .first-screen__link {
+    font-size: 18px;
+  }
+
+  .first-screen__list {
+    margin-bottom: 40px;
+  }
 }

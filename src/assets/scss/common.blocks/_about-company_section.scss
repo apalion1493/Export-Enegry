@@ -89,3 +89,37 @@
   right: 0;
   max-width: 830px;
 }
+
+@media (max-width: 767.98px) {
+  .about-company__image {
+    display: none;
+  }
+
+  .about-company__container-text {
+    font-size: 20px;
+  }
+
+  .about-company__supply-text {
+    font-size: 16px;
+  }
+
+  .about-company__supply-year {
+    font-size: 24px;
+  }
+
+  .about-company_section {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-company__container-list>div:before {
+    display: none;
+  }
+
+  .about-company__container-list>div {
+    width: 50% !important;
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}

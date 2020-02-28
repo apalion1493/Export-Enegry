@@ -23,3 +23,17 @@
     width: 100%;
   }
 }
+
+@media (max-width: 767.98px) {
+  .services-block_our-services {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .services-block__title {
+    font-size: 16px;
+  }
+}
+

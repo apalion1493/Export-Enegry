@@ -269,6 +269,7 @@
   .navigation-block__link {
     border-bottom: none;
     border-right: 1px solid #ECE9F3;
+    height: 77px;
   }
 
   .navigation-block__item {
@@ -276,13 +277,15 @@
   }
 
   .navigation-block__qr-block {
-    bottom: 71px;
+    bottom: auto;
     right: 0;
+    top: -154px;
+    padding: 5px;
   }
 
   .navigation-block__phone-block {
     position: absolute;
-    bottom: 71px;
+    bottom: 85px;
     height: 70px;
   }
 
@@ -291,5 +294,12 @@
     bottom: 71px;
     height: 70px;
     width: 285px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navigation-block__link {
+    box-shadow: none;
+    border-radius: 0;
   }
 }

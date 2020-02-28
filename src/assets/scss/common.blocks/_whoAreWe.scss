@@ -66,3 +66,22 @@
     color: #ffffff;
   }
 }
+
+@media (max-width: 767.98px) {
+  .whoAreWe_section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .whoAreWe__list {
+    padding-left: 10px;
+  }
+
+  .whoAreWe__bg {
+    display: none;
+  }
+
+  .whoAreWe__text {
+    font-size: 16px;
+  }
+}
